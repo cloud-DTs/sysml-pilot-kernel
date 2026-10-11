@@ -1,0 +1,4 @@
+jdk:
+  - openjdk21
+install:
+  - mvn install:install-file -Dfile=jupyter-sysml-kernel-0.55.0-all.jar -DgroupId=com.github.cloud-DTs -DartifactId=sysml-pilot-kernel -Dversion=$VERSION -Dpackaging=jar
